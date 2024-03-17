@@ -232,7 +232,7 @@ function DucCV() {
                 <p>04/2022 - 08/2023</p>
               </div>
               <div class="layout-skill">
-                <div class="skill">Language</div>
+                <div class="skill-duc">Language</div>
                 <h3>English</h3>
                 <i>
                   <p>
@@ -243,7 +243,7 @@ function DucCV() {
                 </i>
               </div>
               <div class="layout-skill">
-                <div class="skill">Activities</div>
+                <div class="skill-duc">Activities</div>
                 <h4>2021-2023</h4>
                 <i>
                   <p>
@@ -261,7 +261,7 @@ function DucCV() {
               </div>
             </div>
             <div class="exp-des">
-              <div class="skill" style={{ marginTop: "30%" }}>
+              <div class="skill-duc" style={{ marginTop: "30%" }}>
                 Awards
               </div>
               <i>
@@ -270,7 +270,10 @@ function DucCV() {
               </i>
               <div class="item-des">
                 <div class="layout-skill">
-                  <div class="skill" style={{ marginTop: 37.5, fontSize: 14 }}>
+                  <div
+                    class="skill-duc"
+                    style={{ marginTop: 37.5, fontSize: 14 }}
+                  >
                     Skills
                   </div>
                   <h3>Programming</h3>
@@ -310,7 +313,7 @@ function DucCV() {
           </div>
           <div class="Project" id="project">
             <div class="custom-hr"></div>
-            <div class="skill">Projects</div>
+            <div class="skill-duc">Projects</div>
             <div class="project-table">
               <div class="project-title">
                 <h4>Online Mobile Phone Store Website</h4>
@@ -516,6 +519,39 @@ function DucCV() {
           </div>
         </div>
       </section>
+      <footer id="footer">
+        <div class="container">
+          <h3>Nguyen Luu Minh Duc</h3>
+          <p>As one as wind and cloud </p>
+          <div class="social-links">
+            <a href="#" class="twitter">
+              <Icon.Twitter />
+            </a>
+            <a href="#" class="facebook">
+              <Icon.Facebook />
+            </a>
+            <a href="#" class="instagram">
+              <Icon.Instagram />
+            </a>
+            <a href="#" class="google-plus">
+              <Icon.Skype />
+            </a>
+            <a href="#" class="linkedin">
+              <Icon.Linkedin />
+            </a>
+          </div>
+          <div class="copyright">
+            &copy; Copyright{" "}
+            <strong>
+              <span>Laura</span>
+            </strong>
+            . All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
