@@ -33,7 +33,7 @@ function Header() {
                                 TIENPG
                             </Link>
                             <Link to="/phuc" className="nav-item nav-link">PHUCNH</Link>
-                            <Link to="/" className="nav-item nav-link">Home</Link>
+                            <Link to="/sang" className="nav-item nav-link">SANGPT</Link>
                         </div>
                     </div>
                 </nav>
