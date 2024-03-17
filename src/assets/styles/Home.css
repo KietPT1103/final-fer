@@ -81,8 +81,16 @@ body {
     transform: translateZ(100px);
 }
 
-.container .box .body .content .bg-green{
+.container .box .body .content .bg-green {
     background: linear-gradient(45deg, #99f2c8, #1f4037) !important;
+}
+
+.container .box .body .content .bg-red {
+    background: linear-gradient(45deg, #ff1b6b, #45caff) !important;
+}
+
+.text-color-tien {
+    color: #b5c6e0;
 }
 
 .container .box .body .content div h3 {
