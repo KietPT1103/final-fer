@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import KietCV from "./pages/KietCV";
 import Home from "./pages/Home";
 import DucCV from "./pages/DucCV";
+import TienCV from "./pages/TienCV";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/kiet" element={<KietCV />} />
         <Route path="/duc" element={<DucCV />} />
+        <Route path="/tien" element={<TienCV />} />
         {/* Add more routes as needed */}
       </Routes>
     </div>
