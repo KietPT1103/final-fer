@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import DucCV from "./pages/DucCV";
 import TienCV from "./pages/TienCV";
 import Header from "./components/Header";
+import SangCV from "./pages/SangCV";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/phuc" element={<PhucCV />} />
         <Route path="/duc" element={<DucCV />} />
         <Route path="/tien" element={<TienCV />} />
+        <Route path="/sang" element={<SangCV />} />
         {/* Add more routes as needed */}
       </Routes>
     </div>
