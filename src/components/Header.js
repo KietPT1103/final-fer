@@ -1,38 +1,44 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
     return (
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                    <Nav className="me-auto align-items-center">
-                        <NavLink
-                            to="/kiet"
-                            className="nav-link fs-4"
-                            activeClassName="active"
-                        >
-                            Kiệt
-                        </NavLink>
-                        <NavLink to="/about" className="nav-link fs-5" activeClassName="active">
-                            About
-                        </NavLink>
-                        <NavLink to="/news" className="nav-link fs-5" activeClassName="active">
-                            News
-                        </NavLink>
-                        <NavLink to="/quiz" className="nav-link fs-5" activeClassName="active">
-                            Quiz
-                        </NavLink>
-                        <NavLink to="/contact" className="nav-link fs-5" activeClassName="active">
-                            Contact
-                        </NavLink>
-                    </Nav>
-                </Container>
-            </Navbar>
-        )
+        <div>
+            <div className="main_banner sticky-top" style={{backgroundColor:'#333333', opacity:'0.7'}} >
+                <nav className="navbar navbar-expand-lg p-3 navbar-dark transparent-nav nav-js">
+                    <Link className="navbar-brand" href="/">
+                        Home
+                    </Link>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon" />
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <Link className="nav-item nav-link active" to="/kiet">
+                                KIETPT
+                            </Link>
+                            <Link to="/" className="nav-item nav-link">Home</Link>
+                            <Link to="/" className="nav-item nav-link">Home</Link>
+                            <Link to="/" className="nav-item nav-link">Home</Link>
+                            <Link to="/" className="nav-item nav-link">Home</Link>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+
+    )
 }
 
 export default Header;
