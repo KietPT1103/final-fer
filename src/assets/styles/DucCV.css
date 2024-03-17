@@ -1,0 +1,486 @@
+.grid {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+.grid.wide {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+ background-color: #a42828;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../images//DucCV/fantasy-2049567_1280.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#hero .btn-scroll {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+#hero .btn-scroll i {
+  font-size: 48px;
+}
+
+#hero .btn-scroll:hover {
+  color: #ffb727;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+body {
+  margin: 0;
+}
+.wrapper {
+  background-color: #efebeb;
+  font-family: system-ui;
+  font-size: 14px;
+  padding: 0 34px;
+}
+.wrapper-infomation {
+  display: flex;
+  min-height: 350px;
+}
+.info {
+  height: auto;
+  padding-bottom: 100px;
+}
+.avatar-contact {
+  background-color: black;
+  color: white;
+  padding: 30px 24px;
+  text-align: center;
+  min-width: 255px;
+}
+.i {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+.i b {
+  font-weight: bold;
+}
+.i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(128, 128, 128); /* Màu của border-bottom */
+}
+.wrapper {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;   
+}
+.avatar-contact img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;;
+}
+.infomation {
+  padding-left: 62px;
+  width: 100%;
+}
+.infomation h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+.infomation .specialize {
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+}
+.target {
+  text-align: center;
+  position: relative;
+  top: 71px;
+  width: 190px;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.target h3 {
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0 2px 2px 2px;
+}
+.target-des {
+  position: relative;
+  top: 78px;
+  font-size: 15px;
+  line-height: 1.4;
+
+}
+
+.Layout-edu-exp {
+  display: flex;    
+}
+.edu-exp {
+  display: flex;
+}
+.edu ,
+.exp {
+  letter-spacing: 4px;
+  margin: 0;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.edu {
+  padding: 4px 54px 5px 54px;
+}
+.edu-fpt {
+  margin-top: 16px;
+}
+.edu-fpt h3 {
+  margin: 6px 0;
+}
+.edu-fpt p {
+  margin: 0 3px 8px 3px;
+}
+.edu-coursera {
+  margin-top: 24px;
+}
+.edu-coursera div {
+  padding-left: 6px;
+}
+.edu-coursera h3 {
+  margin: 6px 0;
+}
+.edu-coursera h4 {
+  margin: 6px;
+  font-weight: 400;
+}
+.exp {
+  padding: 4px 54px 5px 54px;
+  margin-left: 29.8%;
+}
+.edu-des{
+  flex:5;
+}
+.exp-des{
+  flex: 5 ;
+  position: relative;
+  padding-left: 36px;
+}
+.exp-des h4 {
+  margin: 69px 0;
+}
+
+.mediul-project {
+  position: absolute;
+}
+.mediul-project-1 {
+  left: -100px;
+  top: 74px;
+}
+
+.mediul-project-2 {
+  left: -100px;
+  top: 200px;
+}
+
+.item-des {
+  padding: 4px 0 0 0;
+}
+.layout-item-des-2 {
+  margin-top: 57px;;
+}
+
+.layout-skill {
+  margin-top: 32px;
+}
+.skill {
+  padding: 4px 54px 5px 54px;
+  letter-spacing: 4px;
+  margin: 0;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.layout-skill ul li{
+  margin-bottom: 4px;
+}
+.layout-skill h4 {
+  margin : 8px 0;
+}
+.layout-skill p {
+  margin: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #838383;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  line-height: 23px;
+}
+
+th {
+  background-color: #f2f2f2;
+  min-width: 100px;
+  min-width: 200px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.custom-hr {
+  position: relative;
+  border: none;
+  height: 1.5px; /* Điều chỉnh chiều cao của hr */
+  background-color: black;
+  width: 100%; /* Điều chỉnh chiều rộng của hr */
+  margin: 36px 0 0 0; /* Căn giữa hr */
+}
+.hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -36px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+
+/*--------------------------------------------------------------
+# Contact Me
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+
+.contact .info-box i.bx {
+  font-size: 24px;
+  color: #ffb727;
+  border-radius: 50%;
+  padding: 15px;
+  background: #fff6e4;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact .social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: #687683;
+  line-height: 1;
+  margin: 0 8px;
+  transition: 0.3s;
+  padding: 14px;
+  border-radius: 50px;
+  border: 1px solid #dde1e4;
+}
+
+.contact .social-links a:hover {
+  color: #fff;
+  border-color: #ffb727;
+  background: #ffb727;
+}
+
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 27px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+  background-color: #ffb727;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #ffb727;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #ffc85a;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

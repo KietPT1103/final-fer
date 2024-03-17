@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import Carousel from 'react-bootstrap/Carousel';
 import * as Icon from 'react-bootstrap-icons';
-
 import 'aos/dist/aos.css';
 import '../assets/styles/KietCVStyle.css';
 
@@ -159,16 +158,13 @@ function KietCV() {
             </section>
 
             <main id="main">
-
                 <section id="about" class="about">
                     <div class="container">
-
                         <div class="section-title">
                             <span>About Me</span>
                             <h2>About Me</h2>
                             <p>Some infomation about me</p>
                         </div>
-
                         <div class="row">
                             <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-in" data-aos-duration="3000"></div>
                             <div class="col-lg-8 d-flex flex-column align-items-stretch">
