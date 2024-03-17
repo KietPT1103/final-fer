@@ -178,7 +178,7 @@ function KietCV() {
                                             <ul>
                                                 <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Phạm Tuấn Kiệt</span></li>
                                                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+84 76 000 0000</span></li>
-                                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kien Giang, Vietnam</span></li>
+                                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kiên Giang, Việt Nam</span></li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6" data-aos="fade-in" data-aos-duration="2000">

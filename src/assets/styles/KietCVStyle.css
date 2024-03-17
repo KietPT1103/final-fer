@@ -10,7 +10,6 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -22,15 +21,6 @@ a {
 a:hover {
   color: #ffc85a;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -117,7 +107,6 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -1051,7 +1040,6 @@ margin-bottom: 6rem;
   font-size: 36px;
   color: #ffb727;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 

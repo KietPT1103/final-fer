@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
 
     return (
-        <div>
+        <div style={{fontFamily: 'sans-serif'}}>
             <div className="main_banner sticky-top" style={{backgroundColor:'#333333', opacity:'0.7'}} >
                 <nav className="navbar navbar-expand-lg p-3 navbar-dark transparent-nav nav-js">
                     <Link className="navbar-brand" href="/">
