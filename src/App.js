@@ -7,7 +7,7 @@ import KietCV from "./pages/KietCV";
 import Home from "./pages/Home";
 import DucCV from "./pages/DucCV";
 import TienCV from "./pages/TienCV";
-
+import Header from "./components/Header";
 function App() {
   return (
     <div className="App">
