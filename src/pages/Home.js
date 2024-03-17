@@ -105,12 +105,10 @@ function Home() {
             </div>
             <div className="content d-flex flex-column align-items-center justify-content-center">
               <div>
-                <h3 className="text-white fs-5">Post Title</h3>
-                <p className="fs-6 text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo sed cum neque, rem provident ex. Laboriosam
-                  perspiciatis modi eveniet in?
-                </p>
+              <h3 className="text-white fs-5">Nguyễn Hoàng Phúc</h3>
+                <p className="fs-6 text-white">CE170737</p>
+                <p className="fs-6 text-white">Front-end developer</p>
+                <Link to={'/phuc'} className='text-success'>Detail</Link>
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ function Header() {
         <div style={{ fontFamily: 'sans-serif' }}>
             <div className="main_banner sticky-top" style={{ backgroundColor: '#333333', opacity: '0.7' }} >
                 <nav className="navbar navbar-expand-lg p-3 navbar-dark transparent-nav nav-js">
-                    <Link className="navbar-brand" to='/'>
+                    <Link className="navbar-brand" to="/">
                         Home
                     </Link>
                     <button
@@ -32,7 +32,7 @@ function Header() {
                             <Link to="/tien" className="nav-item nav-link">
                                 TIENPG
                             </Link>
-                            <Link to="/" className="nav-item nav-link">Home</Link>
+                            <Link to="/phuc" className="nav-item nav-link">PHUCNH</Link>
                             <Link to="/" className="nav-item nav-link">Home</Link>
                         </div>
                     </div>
