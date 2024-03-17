@@ -153,8 +153,12 @@ function DucCV() {
         </nav>
       </header>
 
-      <section id="hero">
-        <div class="hero-container" data-aos="fade-up" data-aos-duration="3000">
+      <section id="hero-duc">
+        <div
+          class="hero-duc-container"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <h1>Nguyễn Lưu Minh Đức </h1>
           <h2>I'm an Intern Front-end developer</h2>
           <a href="#about" class="btn-scroll scrollto" title="Scroll Down">
@@ -406,7 +410,6 @@ function DucCV() {
           </div>
         </div>
       </div>
-
       <section id="contact" class="contact">
         <div class="container">
           <div class="section-title">
