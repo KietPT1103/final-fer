@@ -155,46 +155,46 @@ function DucCV() {
 
       <section id="hero-duc">
         <div
-          class="hero-duc-container"
+          className="hero-duc-container"
           data-aos="fade-up"
           data-aos-duration="3000"
         >
           <h1>Nguyễn Lưu Minh Đức </h1>
           <h2>I'm an Intern Front-end developer</h2>
-          <a href="#about" class="btn-scroll scrollto" title="Scroll Down">
-            <i class="bx bx-chevron-down"></i>
+          <a href="#about" className="btn-scroll scrollto" title="Scroll Down">
+            <i className="bx bx-chevron-down"></i>
           </a>
         </div>
       </section>
 
-      <div class="wrapper grid grid wide">
-        <div class="wrapper-infomation" id="about">
-          <div class="avatar-contact">
+      <div className="wrapper grid grid wide">
+        <div className="wrapper-infomation" id="about">
+          <div className="avatar-contact">
             <img src={avt} alt="Avatar" />
-            <p class="i">
+            <p className="i">
               <b>E</b> : minhduc2003kols@gmail.com
             </p>
-            <p class="i">
+            <p className="i">
               <b>P</b> : 0333090091
             </p>
-            <p class="i">
+            <p className="i">
               <b>D</b> : 03/02/2003
             </p>
-            <p class="i">
+            <p className="i">
               <b>A</b> : An Giang, Vietnam
             </p>
           </div>
-          <div class="infomation">
-            <div style={{ position: "relative" }} class="hr">
+          <div className="infomation">
+            <div style={{ position: "relative" }} className="hr">
               <h1>Nguyen Luu Minh Duc</h1>
-              <div class="specialize">
+              <div className="specialize">
                 <i>Front-End Developer</i>
               </div>
-              <div class="target">
+              <div className="target">
                 <h3 style={{ fontWeight: 400 }}>OBJECTIVE</h3>
               </div>
             </div>
-            <div class="target-des">
+            <div className="target-des">
               I am looking for an internship opportunity in the software
               development field, where I can apply and enhance my programming
               skills. My creativity and eagerness to learn will be the
@@ -204,22 +204,22 @@ function DucCV() {
             </div>
           </div>
         </div>
-        <div class="info" id="resume">
-          <hr class="custom-hr" />
-          <div class="edu-exp">
-            <div class="edu">EDUCATION</div>
-            <div class="exp" style={{ marginLeft: "27.9%" }}>
+        <div className="info" id="resume">
+          <hr className="custom-hr" />
+          <div className="edu-exp">
+            <div className="edu">EDUCATION</div>
+            <div className="exp" style={{ marginLeft: "27.9%" }}>
               EXPERIENCE
             </div>
           </div>
-          <div class="Layout-edu-exp">
-            <div class="edu-des">
-              <div class="edu-fpt">
+          <div className="Layout-edu-exp">
+            <div className="edu-des">
+              <div className="edu-fpt">
                 <h3> FPT UNIVERSITY </h3>
                 <p>Software Engineering</p>
                 <p> 2021-2025 </p>
               </div>
-              <div class="edu-coursera">
+              <div className="edu-coursera">
                 <h3>COURSERA</h3>
                 <i>
                   <h4>Certificate :</h4>
@@ -235,8 +235,8 @@ function DucCV() {
                 </i>
                 <p>04/2022 - 08/2023</p>
               </div>
-              <div class="layout-skill">
-                <div class="skill-duc">Language</div>
+              <div className="layout-skill">
+                <div className="skill-duc">Language</div>
                 <h3>English</h3>
                 <i>
                   <p>
@@ -246,8 +246,8 @@ function DucCV() {
                   <p>Ability to read English documents, basic communication</p>
                 </i>
               </div>
-              <div class="layout-skill">
-                <div class="skill-duc">Activities</div>
+              <div className="layout-skill">
+                <div className="skill-duc">Activities</div>
                 <h4>2021-2023</h4>
                 <i>
                   <p>
@@ -264,18 +264,18 @@ function DucCV() {
                 </i>
               </div>
             </div>
-            <div class="exp-des">
-              <div class="skill-duc" style={{ marginTop: "30%" }}>
+            <div className="exp-des">
+              <div className="skill-duc" style={{ marginTop: "30%" }}>
                 Awards
               </div>
               <i>
                 <h5 style={{ marginTop: 52 }} />
                 Honored to be recognized at the Fall 2023 Honor Ceremony.
               </i>
-              <div class="item-des">
-                <div class="layout-skill">
+              <div className="item-des">
+                <div className="layout-skill">
                   <div
-                    class="skill-duc"
+                    className="skill-duc"
                     style={{ marginTop: 37.5, fontSize: 14 }}
                   >
                     Skills
@@ -315,13 +315,13 @@ function DucCV() {
               </div>
             </div>
           </div>
-          <div class="Project" id="project">
-            <div class="custom-hr"></div>
-            <div class="skill-duc">Projects</div>
-            <div class="project-table">
-              <div class="project-title">
+          <div className="Project" id="project">
+            <div className="custom-hr"></div>
+            <div className="skill-duc">Projects</div>
+            <div className="project-table">
+              <div className="project-title">
                 <h4>Online Mobile Phone Store Website</h4>
-                <p class="time">8/2023 - 12/2023</p>
+                <p className="time">8/2023 - 12/2023</p>
               </div>
               <table border="1">
                 <tbody>
@@ -358,10 +358,10 @@ function DucCV() {
                 </tbody>
               </table>
             </div>
-            <div class="project-table">
-              <div class="project-title">
+            <div className="project-table">
+              <div className="project-title">
                 <h4>Online Movie Ticket Booking Website</h4>
-                <p class="time">1/2024 - 3/2024</p>
+                <p className="time">1/2024 - 3/2024</p>
               </div>
               <table border="1">
                 <tbody>
@@ -410,9 +410,9 @@ function DucCV() {
           </div>
         </div>
       </div>
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
+      <section id="contact" className="contact">
+        <div className="container">
+          <div className="section-title">
             <span>Contact Me</span>
             <h2>Contact Me</h2>
             <p>
@@ -421,42 +421,42 @@ function DucCV() {
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6" data-aos="zoom-in-right">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <i class="bx bx-share-alt"></i>
+          <div className="row">
+            <div className="col-lg-6" data-aos="zoom-in-right">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="info-box">
+                    <i className="bx bx-share-alt"></i>
                     <h3>Social Profiles</h3>
-                    <div class="social-links">
-                      <a href="#" class="twitter">
+                    <div className="social-links">
+                      <a href="#" className="twitter">
                         <Icon.Twitter />
                       </a>
-                      <a href="#" class="facebook">
+                      <a href="#" className="facebook">
                         <Icon.Facebook />
                       </a>
-                      <a href="#" class="instagram">
+                      <a href="#" className="instagram">
                         <Icon.Instagram />
                       </a>
-                      <a href="#" class="google-plus">
+                      <a href="#" className="google-plus">
                         <Icon.Skype />
                       </a>
-                      <a href="#" class="linkedin">
+                      <a href="#" className="linkedin">
                         <Icon.Linkedin />
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-envelope"></i>
+                <div className="col-md-6">
+                  <div className="info-box mt-4">
+                    <i className="bx bx-envelope"></i>
                     <h3>Email Me</h3>
                     <p>contact@example.com</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-phone-call"></i>
+                <div className="col-md-6">
+                  <div className="info-box mt-4">
+                    <i className="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
                     <p>+1 5589 55488 55</p>
                   </div>
@@ -464,23 +464,23 @@ function DucCV() {
               </div>
             </div>
 
-            <div class="col-lg-6" data-aos="zoom-in-left">
-              <form action="" class="php-email-form">
-                <div class="row">
-                  <div class="col-md-6 form-group">
+            <div className="col-lg-6" data-aos="zoom-in-left">
+              <form action="" className="php-email-form">
+                <div className="row">
+                  <div className="col-md-6 form-group">
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Your Name"
                       required
                     />
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <div className="col-md-6 form-group mt-3 mt-md-0">
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       name="email"
                       id="email"
                       placeholder="Your Email"
@@ -488,33 +488,33 @@ function DucCV() {
                     />
                   </div>
                 </div>
-                <div class="form-group mt-3">
+                <div className="form-group mt-3">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     name="subject"
                     id="subject"
                     placeholder="Subject"
                     required
                   />
                 </div>
-                <div class="form-group mt-3">
+                <div className="form-group mt-3">
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     name="message"
                     rows="6"
                     placeholder="Message"
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
+                <div className="my-3">
+                  <div className="loading">Loading</div>
+                  <div className="error-message"></div>
+                  <div className="sent-message">
                     Your message has been sent. Thank you!
                   </div>
                 </div>
-                <div class="text-center">
+                <div className="text-center">
                   <button type="submit">Send Message</button>
                 </div>
               </form>
@@ -523,34 +523,34 @@ function DucCV() {
         </div>
       </section>
       <footer id="footer">
-        <div class="container">
+        <div className="container">
           <h3>Nguyen Luu Minh Duc</h3>
           <p>As one as wind and cloud </p>
-          <div class="social-links">
-            <a href="#" class="twitter">
+          <div className="social-links">
+            <a href="#" className="twitter">
               <Icon.Twitter />
             </a>
-            <a href="#" class="facebook">
+            <a href="#" className="facebook">
               <Icon.Facebook />
             </a>
-            <a href="#" class="instagram">
+            <a href="#" className="instagram">
               <Icon.Instagram />
             </a>
-            <a href="#" class="google-plus">
+            <a href="#" className="google-plus">
               <Icon.Skype />
             </a>
-            <a href="#" class="linkedin">
+            <a href="#" className="linkedin">
               <Icon.Linkedin />
             </a>
           </div>
-          <div class="copyright">
+          <div className="copyright">
             &copy; Copyright{" "}
             <strong>
               <span>Laura</span>
             </strong>
             . All Rights Reserved
           </div>
-          <div class="credits">
+          <div className="credits">
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>

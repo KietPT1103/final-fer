@@ -1,18 +1,20 @@
 import React from 'react';
 import '../assets/styles/SangCV.css';
 import avt from "../assets/images/SangCV/avt.jpg";
+import Header from '../components/Header';
 
 function SangCV() {
   return (
-    <div>
-      <div class="Sang-container">
-      <div class="Sang-avatar">
+    <div className='body-sang'>
+      <Header/>
+      <div className="Sang-container">
+      <div className="Sang-avatar">
             <img src={avt} alt="avatar"></img>
            </div>
-        <div class="Sang-name">
+        <div className="Sang-name">
           <h1>Phan Thái Sang</h1>
-          <div class="Sang-specialize"><h5>I'm an Intern Front-end developer</h5></div>
-          <ul class="Sang-contact">
+          <div className="Sang-specialize"><h5>I'm an Intern Front-end developer</h5></div>
+          <ul className="Sang-contact">
             <li>
               <span>P</span> 0387238736
             </li>
@@ -22,28 +24,28 @@ function SangCV() {
             
           </ul>
         </div>
-        <div class="Sang-info">
+        <div className="Sang-info">
           <ul>
             <li>From <b>CTC</b> - VietNam</li>
             <li>11/12/2003</li>
             <li>FPT University</li>
           </ul>
         </div>
-        <div class="Sang-intro">
+        <div className="Sang-intro">
           <h2>INTRODUCE MYSELT</h2>
           I am a student at FPT University, I am currently on an internship, I would like to receive an internship at your company.
         </div>
         <div>
 
-          <div class="Sang-item">
+          <div className="Sang-item">
             <h4>Student</h4>
-            <div class="Sang-time">
+            <div className="Sang-time">
               <span>2021 - 2025</span>
               <span>FPT University</span>
             </div>
            
           </div>
-          <h2 class="Sang-skills">
+          <h2 className="Sang-skills">
             SKILLS
           </h2>
           <ul>
@@ -58,26 +60,26 @@ function SangCV() {
           </ul>
 
         </div>
-        <div class="Sang-project">
+        <div className="Sang-project">
           <h2>PROJECTS</h2>
-          <div class="Sang-item">
+          <div className="Sang-item">
             <h4>Website Cenima Booking</h4>
-            <div class="Sang-time">
+            <div className="Sang-time">
               2023
             </div>
-            <div class="Sang-location">
+            <div className="Sang-location">
               Frond-end Developer
             </div>
             
           </div>
 
-          <div class="Sang-item">
+          <div className="Sang-item">
             <h4>Website Cafe</h4>
-            <div class="Sang-time">
+            <div className="Sang-time">
               2022
             </div>
             
-            <div class="Sang-location">
+            <div className="Sang-location">
               Frond-end Developer
             </div>
             
