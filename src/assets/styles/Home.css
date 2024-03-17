@@ -14,6 +14,14 @@ body {
     justify-content: center;
 }
 
+#home-background {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/Home/home-bg.jpg") top right;
+    background-size: cover;
+    position: relative;
+  }
+
 .container {
     transform-style: preserve-3d;
 }
@@ -64,10 +72,26 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transform: rotateY(180deg);
+    border-radius: 100%;
+}
+
+.container .box .body .kiet-content {
+    background: url('../images/Home/4.png')
+}
+.container .box .body .tien-content {
+    background: url('../images/Home/1.png')
+}
+.container .box .body .duc-content {
+    background: url('../images/Home/2.png')
+}
+.container .box .body .phuc-content {
+    background: url('../images/Home/3.png')
+}
+.container .box .body .sang-content {
+    background: url('../images/Home/5.png')
 }
 
 .container .box:hover .body {
@@ -77,20 +101,36 @@ body {
 .container .box .body .content div {
     transform-style: preserve-3d;
     padding: 20px;
-    background: linear-gradient(45deg, #FE0061, #FFEB3B);
+    background: linear-gradient(45deg, #08203e, #557c93);
     transform: translateZ(100px);
 }
 
 .container .box .body .content .bg-green {
-    background: linear-gradient(45deg, #99f2c8, #1f4037) !important;
+    background: linear-gradient(45deg, #43c197, #1c1554) !important;
 }
 
 .container .box .body .content .bg-red {
     background: linear-gradient(45deg, #ff1b6b, #45caff) !important;
 }
+.container .box .body .content .bg-blue {
+    background: linear-gradient(45deg, #0968e5, #091970) !important;
+}
+.container .box .body .content .bg-pink {
+    background: linear-gradient(45deg, #9d80cb, #f7c2e6) !important;
+}
 
 .text-color-tien {
-    color: #b5c6e0;
+    color: #210cae;
+}
+.text-kiet {
+    color: #f7f779;
+}
+.text-sang {
+    color: #f9bc2c;
+}
+.text-phuc {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .container .box .body .content div h3 {

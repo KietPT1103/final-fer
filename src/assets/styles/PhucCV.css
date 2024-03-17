@@ -3,149 +3,151 @@
         margin: 0;
         padding: 0;
     }
-    
+
+    .phuc-bg-img{
+        background: url('../images//PhucCV/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 4rem;
+    }
+
     .PhucCV-container {
         max-width: 800px;
         margin: 20px auto;
-        padding: 0 20px;
         display: flex;
-        
+        background-color: #ccc;
     }
-    
+
     header h1 {
         margin: 0;
     }
-    
+
     header p {
         margin-top: 5px;
         font-style: italic;
     }
-    
+
     .PhucCV-profile,
     .PhucCV-experience,
     .PhucCV-education {
         margin-bottom: 20px;
     }
-    
+
     h2 {
         margin-bottom: 10px;
     }
-    
+
     ul {
         list-style-type: none;
         padding: 0;
     }
-    
+
     li {
         margin-bottom: 10px;
     }
-    
+
     li h3 {
         margin: 0;
     }
-    
-
-
-    .contect-left{
-       
-
-        background-color: #5656dd;
-         padding:10px;
+    .contect-left {
+        background-color: #00458e;
+        padding: 10px 2rem;
     }
-.contect-left img{
-    width: 304px;
-    border-radius: 100%;
-}
 
-.info-phuccv h3 {
-    padding: 9px;
-}
+    .contect-left img {
+        width: 304px;
+        border-radius: 100%;
+    }
 
-.hobby-phuccv h3 {
-    margin-left: 79px;
-    padding: 9px;
-}
+    .info-phuccv h3 {
+        padding: 9px;
+    }
 
-.Skill-phuccv h3{
-    margin-left: 20px;
-    padding: 9px;
-}
+    .hobby-phuccv h3 {
+        text-align: center;
+        padding: 9px;
+    }
 
-.LANGUAGE-phuccv h3{
-    margin-left: 25px;
-    padding: 9px;
-}
+    .Skill-phuccv h3 {
+        text-align: center;
+        padding: 9px;
+    }
 
-.contect-right{
-    margin-left: 25px;  
-}
+    .LANGUAGE-phuccv h3 {
+        text-align: center;
+        padding: 9px;
+    }
 
-
-.Profile-phuccv h1{
-    background: #0000ff2e;
-}
-
-.Profile-phuccv p{
-    
-    padding: 17px;
-}
-
-.EDUCATION-phuccv h1{
-    background: #0000ff2e;
-}
-
-.EDUCATION-info{
-    padding: 14px;
-    padding-left:21px;
-}
+    .contect-right {
+        margin-left: 25px;
+    }
 
 
-.TARGETS-phuccv h1{
-    background: #0000ff2e;
-}
+    .Profile-phuccv h1 {
+        background: #0000ff2e;
+    }
 
-.TARGETS-info{
-    padding: 14px;
-    padding-left:18px;
-}
+    .Profile-phuccv p {
 
-.ADVANTAGE-phuccv h1{
-    background: #0000ff2e;
-}
+        padding: 17px;
+    }
 
+    .EDUCATION-phuccv h1 {
+        background: #0000ff2e;
+    }
 
-.ADVANTAGE-info{
-    padding: 14px;
-    padding-left:18px;
-}
-
-
-.Experience-phuccv h1{
-    background: #0000ff2e;
-}
-
-.Experience-info{
-    padding: 14px;
-    padding-left:18px;
-}
+    .EDUCATION-info {
+        padding: 14px;
+        padding-left: 21px;
+    }
 
 
-.Profile-phuccv {
-    margin-bottom: 31px;
-}
+    .TARGETS-phuccv h1 {
+        background: #0000ff2e;
+    }
 
-.EDUCATION-phuccv {
-    margin-bottom: 60px;
-}
+    .TARGETS-info {
+        padding: 14px;
+        padding-left: 18px;
+    }
 
-.TARGETS-phuccv {
-    margin-bottom: 80px;
-}
+    .ADVANTAGE-phuccv h1 {
+        background: #0000ff2e;
+    }
 
-.ADVANTAGE-phuccv {
-    margin-bottom: 55px;
-}
 
-.Experience-phuccv {
-    /* margin-bottom: 31px; */
-}
+    .ADVANTAGE-info {
+        padding: 14px;
+        padding-left: 18px;
+    }
+
+
+    .Experience-phuccv h1 {
+        background: #0000ff2e;
+    }
+
+    .Experience-info {
+        padding: 14px;
+        padding-left: 18px;
+    }
+
+
+    .Profile-phuccv {
+        margin-bottom: 31px;
+    }
+
+    .EDUCATION-phuccv {
+        margin-bottom: 60px;
+    }
+
+    .TARGETS-phuccv {
+        margin-bottom: 80px;
+    }
+
+    .ADVANTAGE-phuccv {
+        margin-bottom: 55px;
+    }
+
+    .Experience-phuccv {
+        /* margin-bottom: 31px; */
+    }

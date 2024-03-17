@@ -5,6 +5,13 @@ import { Link } from "react-router-dom";
 
 import "aos/dist/aos.css";
 import "../assets/styles/Home.css";
+
+import img1 from '../assets/images/Home/1.png'
+import img2 from '../assets/images/Home/2.png'
+import img3 from '../assets/images/Home/3.png'
+import img4 from '../assets/images/Home/4.png'
+import img5 from '../assets/images/Home/5.png'
+
 function Home() {
   //animation libary
   AOS.init({
@@ -29,23 +36,23 @@ function Home() {
   });
 
   return (
-    <div>
+    <div id="home-background">
       <Header />
       <div className="container d-flex align-items-center justify-content-center flex-wrap">
         <div className="box">
           <div className="body">
             <div className="imgContainer">
               <img
-                src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src={img4}
                 alt=""
               />
             </div>
-            <div className="content  d-flex flex-column align-items-center justify-content-center">
+            <div className="content kiet-content d-flex flex-column align-items-center justify-content-center">
               <div className="bg-green">
                 <h3 className="text-white fs-5">Phạm Tuấn Kiệt</h3>
                 <p className="fs-6 text-white">CE171830</p>
                 <p className="fs-6 text-white">Front-end developer</p>
-                <Link to={"/kiet"} className="text-success">
+                <Link to={"/kiet"} className="text-kiet">
                   Detail
                 </Link>
               </div>
@@ -57,11 +64,11 @@ function Home() {
           <div className="body">
             <div className="imgContainer">
               <img
-                src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+               src={img1}  
                 alt=""
               />
             </div>
-            <div className="content  d-flex flex-column align-items-center justify-content-center">
+            <div className="content tien-content d-flex flex-column align-items-center justify-content-center">
               <div className="bg-red">
                 <h3 className="text-white fs-5">Phạm Gia Tiến</h3>
                 <p className="fs-6 text-white">CE170146</p>
@@ -78,16 +85,16 @@ function Home() {
           <div className="body">
             <div className="imgContainer">
               <img
-                src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                src={img2}
                 alt=""
               />
             </div>
-            <div className="content  d-flex flex-column align-items-center justify-content-center">
-              <div className="bg-green">
+            <div className="content duc-content d-flex flex-column align-items-center justify-content-center">
+              <div className="bg-pink">
                 <h3 className="text-white fs-5">Nguyễn Lưu Minh Đức</h3>
                 <p className="fs-6 text-white">CE171880</p>
                 <p className="fs-6 text-white">Front-end developer</p>
-                <Link to={"/duc"} className="text-success">
+                <Link to={"/duc"} className="text-phuc">
                   Detail
                 </Link>
               </div>
@@ -99,16 +106,16 @@ function Home() {
           <div className="body">
             <div className="imgContainer">
               <img
-                src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                 src={img3}
                 alt=""
               />
             </div>
-            <div className="content d-flex flex-column align-items-center justify-content-center">
-              <div>
+            <div className="content phuc-content d-flex flex-column align-items-center justify-content-center">
+              <div className="bg-blue">
               <h3 className="text-white fs-5">Nguyễn Hoàng Phúc</h3>
                 <p className="fs-6 text-white">CE170737</p>
                 <p className="fs-6 text-white">Front-end developer</p>
-                <Link to={'/phuc'} className='text-success'>Detail</Link>
+                <Link to={'/phuc'} className='text-phuc'>Detail</Link>
               </div>
             </div>
           </div>
@@ -117,14 +124,14 @@ function Home() {
         <div className="box">
           <div className="body">
             <div className="imgContainer">
-              <img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
+              <img src={img5} alt=""/>
             </div>
-            <div className="content d-flex flex-column align-items-center justify-content-center">
+            <div className="content sang-content d-flex flex-column align-items-center justify-content-center">
               <div>
               <h3 className="text-white fs-5">Phan Thái Sang</h3>
                 <p className="fs-6 text-white">CE171893</p>
                 <p className="fs-6 text-white">Front-end developer</p>
-                <Link to={'/sang'} className='text-success'>Detail</Link>
+                <Link to={'/sang'} className='text-sang'>Detail</Link>
               </div>
             </div>
           </div>

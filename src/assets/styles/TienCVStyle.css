@@ -1,6 +1,8 @@
 .tien-body {
-    background-color: #D5D5D5;
+    background: url('../images/TienCV/bg.jpg');
     font-family: system-ui;
+    background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .tien-container {

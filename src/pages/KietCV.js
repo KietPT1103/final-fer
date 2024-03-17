@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import '../assets/styles/KietCVStyle.css';
 
 function KietCV() {
+
     useEffect(() => {
         const select = (el, all = false) => {
             el = el.trim();
@@ -356,11 +357,11 @@ function KietCV() {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <div className="testimonial-item">
-                                        <h3>John Larson</h3>
+                                        <h3>Zenin</h3>
                                         <h4>Entrepreneur</h4>
                                         <p>
                                             <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                            "50k"
                                             <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
                                     </div>

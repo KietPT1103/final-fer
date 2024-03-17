@@ -29,7 +29,7 @@ function PhucCV() {
   });
 
   return (
-    <div>
+    <div className="phuc-bg-img">
       <Header />
 
       <div className="PhucCV-container">
