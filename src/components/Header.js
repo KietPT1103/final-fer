@@ -29,7 +29,9 @@ function Header() {
                             <Link to="/duc" className="nav-item nav-link">
                                 DucNLM
                             </Link>
-                            <Link to="/tien" className="nav-item nav-link">TIENPG</Link>
+                            <Link to="/tien" className="nav-item nav-link">
+                                TIENPG
+                            </Link>
                             <Link to="/" className="nav-item nav-link">Home</Link>
                             <Link to="/" className="nav-item nav-link">Home</Link>
                         </div>
@@ -37,9 +39,6 @@ function Header() {
                 </nav>
             </div>
         </div>
-        </nav >
-      </div >
-    </div >
   );
 }
 
