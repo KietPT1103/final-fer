@@ -14,13 +14,21 @@ body {
     justify-content: center;
 }
 
+.h1-home h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#439cfb, #f187fb);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2rem 0;
+}
+
 #home-background {
     width: 100%;
     height: 100vh;
     background: url("../images/Home/home-bg.jpg") top right;
     background-size: cover;
     position: relative;
-  }
+}
 
 .container {
     transform-style: preserve-3d;
@@ -81,15 +89,19 @@ body {
 .container .box .body .kiet-content {
     background: url('../images/Home/4.png')
 }
+
 .container .box .body .tien-content {
     background: url('../images/Home/1.png')
 }
+
 .container .box .body .duc-content {
     background: url('../images/Home/2.png')
 }
+
 .container .box .body .phuc-content {
     background: url('../images/Home/3.png')
 }
+
 .container .box .body .sang-content {
     background: url('../images/Home/5.png')
 }
@@ -112,9 +124,11 @@ body {
 .container .box .body .content .bg-red {
     background: linear-gradient(45deg, #ff1b6b, #45caff) !important;
 }
+
 .container .box .body .content .bg-blue {
     background: linear-gradient(45deg, #0968e5, #091970) !important;
 }
+
 .container .box .body .content .bg-pink {
     background: linear-gradient(45deg, #9d80cb, #f7c2e6) !important;
 }
@@ -122,12 +136,15 @@ body {
 .text-color-tien {
     color: #210cae;
 }
+
 .text-kiet {
     color: #f7f779;
 }
+
 .text-sang {
     color: #f9bc2c;
 }
+
 .text-phuc {
     color: #fff;
     text-decoration: underline;

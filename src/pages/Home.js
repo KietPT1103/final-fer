@@ -13,31 +13,32 @@ import img4 from '../assets/images/Home/4.png'
 import img5 from '../assets/images/Home/5.png'
 
 function Home() {
-  //animation libary
-  AOS.init({
-    // Global settings:
-    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-    startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-    initClassName: "aos-init", // className applied after initialization
-    animatedClassName: "aos-animate", // className applied on animation
-    useClassNames: false, // if true, will add content of `data-aos` as classNamees on scroll
-    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
-    delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 400, // values from 0 to 3000, with step 50ms
-    easing: "ease", // default easing for AOS animations
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+  //AOS animation libary
+  AOS.init({
+    disable: false,
+    startEvent: "DOMContentLoaded", 
+    initClassName: "aos-init",
+    animatedClassName: "aos-animate", 
+    useClassNames: false, 
+    disableMutationObserver: false,
+    debounceDelay: 50, 
+    throttleDelay: 99,
+    offset: 120, 
+    delay: 0, 
+    duration: 400, 
+    easing: "ease", 
+    once: false,
+    mirror: false,
+    anchorPlacement: "top-bottom",
   });
 
   return (
     <div id="home-background">
       <Header />
+      <div className="text-center h1-home">
+        <h1 style={{color:'#595cff'}}>Welcome</h1>
+      </div>
       <div className="container d-flex align-items-center justify-content-center flex-wrap">
         <div className="box">
           <div className="body">
@@ -64,7 +65,7 @@ function Home() {
           <div className="body">
             <div className="imgContainer">
               <img
-               src={img1}  
+                src={img1}
                 alt=""
               />
             </div>
@@ -106,13 +107,13 @@ function Home() {
           <div className="body">
             <div className="imgContainer">
               <img
-                 src={img3}
+                src={img3}
                 alt=""
               />
             </div>
             <div className="content phuc-content d-flex flex-column align-items-center justify-content-center">
               <div className="bg-blue">
-              <h3 className="text-white fs-5">Nguyễn Hoàng Phúc</h3>
+                <h3 className="text-white fs-5">Nguyễn Hoàng Phúc</h3>
                 <p className="fs-6 text-white">CE170737</p>
                 <p className="fs-6 text-white">Front-end developer</p>
                 <Link to={'/phuc'} className='text-phuc'>Detail</Link>
@@ -124,11 +125,11 @@ function Home() {
         <div className="box">
           <div className="body">
             <div className="imgContainer">
-              <img src={img5} alt=""/>
+              <img src={img5} alt="" />
             </div>
             <div className="content sang-content d-flex flex-column align-items-center justify-content-center">
               <div>
-              <h3 className="text-white fs-5">Phan Thái Sang</h3>
+                <h3 className="text-white fs-5">Phan Thái Sang</h3>
                 <p className="fs-6 text-white">CE171893</p>
                 <p className="fs-6 text-white">Front-end developer</p>
                 <Link to={'/sang'} className='text-sang'>Detail</Link>
